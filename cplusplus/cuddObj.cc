@@ -63,6 +63,7 @@ using std::string;
 using std::vector;
 using std::sort;
 
+namespace CUDD {
 // ---------------------------------------------------------------------------
 // Variable declarations
 // ---------------------------------------------------------------------------
@@ -6166,3 +6167,4 @@ Cudd::OrderString(void) const
     return oss.str();
 
 } // Cudd::OrderString
+}
